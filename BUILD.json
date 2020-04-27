@@ -1,0 +1,32 @@
+{
+   "XS" : 0,
+   "abstract" : "Provides installation and config information for the InteractiveBrokers API",
+   "builder" : "Build.PL",
+   "builder_API_version" : "1",
+   "cant_play" : "use of inc/ with Alien modules",
+   "license" : "perl",
+   "maintainers" : [
+      "Jason McManus <infidel AT cpan.org>"
+   ],
+   "name" : "Alien-InteractiveBrokers",
+   "primary" : "Alien::InteractiveBrokers",
+   "provides" : {
+      "Alien::InteractiveBrokers" : {
+         "file" : "lib/Alien/InteractiveBrokers.pm",
+         "version" : "9.6602"
+      }
+   },
+   "recommends_runtime" : {},
+   "requires_build" : {
+      "Archive::Extract" : "0",
+      "HTTP::Tiny" : "0",
+      "Module::Build" : "0.36",
+      "Test::More" : "0"
+   },
+   "requires_develop" : {},
+   "requires_runtime" : {
+      "perl" : "v5.6.0"
+   },
+   "source" : "PAUSE",
+   "version" : "9.6602"
+}
